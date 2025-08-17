@@ -1,4 +1,4 @@
-module gateway
+module github.com/dimuthuh28/go-api-gateway
 
 go 1.23.0
 
@@ -10,6 +10,7 @@ require (
 	github.com/lib/pq v1.10.9
 	github.com/prometheus/client_golang v1.23.0
 	github.com/segmentio/kafka-go v0.4.48
+
 )
 
 require (

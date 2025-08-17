@@ -5,12 +5,12 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	"api-gateway-go/internal/jobs"
-	"api-gateway-go/internal/kafka"
-	"api-gateway-go/internal/loadbalancer"
-	"api-gateway-go/internal/metrics"
-	"api-gateway-go/internal/middleware"
-	"api-gateway-go/internal/server"
+	"github.com/dimuthuh28/go-api-gateway/internal/jobs"
+	"github.com/dimuthuh28/go-api-gateway/internal/kafka"
+	"github.com/dimuthuh28/go-api-gateway/internal/loadbalancer"
+	"github.com/dimuthuh28/go-api-gateway/internal/metrics"
+	"github.com/dimuthuh28/go-api-gateway/internal/middleware"
+	"github.com/dimuthuh28/go-api-gateway/internal/server"
 )
 
 func main() {

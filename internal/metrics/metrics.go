@@ -8,5 +8,10 @@ import (
 
 func StartMetricsServer(addr string) {
 	http.Handle("/metrics", promhttp.Handler())
-	go http.ListenAndServe(addr, nil)
+	go func() {
+		err := http.ListenAndServe(addr, nil)
+		if err != nil {
+
+		}
+	}()
 }
